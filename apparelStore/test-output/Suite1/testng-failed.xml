@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="com.apparelStore.testCases.PlaceOrderTest">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.apparelStore.testCases.PlaceOrderTest -->
+      <class name="com.apparelStore.testCases.ReviewTest">
+        <methods>
+          <include name="writeReviewTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.apparelStore.testCases.ReviewTest -->
+      <class name="com.apparelStore.testCases.SearchTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="itemsSearchTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.apparelStore.testCases.SearchTests -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

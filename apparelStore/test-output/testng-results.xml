@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="10" total="24" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ApparelStoreTestSuite" duration-ms="366706" started-at="2020-12-10T07:02:35Z" finished-at="2020-12-10T07:08:42Z">
+    <groups>
+    </groups>
+    <test name="Apparel Store Test" duration-ms="366706" started-at="2020-12-10T07:02:35Z" finished-at="2020-12-10T07:08:42Z">
+      <class name="com.apparelStore.testCases.AccountCreationTests">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="startReport" is-config="true" duration-ms="184" started-at="2020-12-10T07:02:35Z" finished-at="2020-12-10T07:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="beforeMethod" is-config="true" duration-ms="16345" started-at="2020-12-10T07:02:36Z" finished-at="2020-12-10T07:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAccountCaseTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="createAccountCaseTest" duration-ms="12012" started-at="2020-12-10T07:02:52Z" data-provider="accountsData" finished-at="2020-12-10T07:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=testaccount8@email.com, firstName=test, password=testaccount8, lastName=account, phoneNumber=9999999999}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountCaseTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="afterMethod" is-config="true" duration-ms="1469" started-at="2020-12-10T07:03:04Z" finished-at="2020-12-10T07:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountCaseTest status=SUCCESS method=AccountCreationTests.createAccountCaseTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="beforeMethod" is-config="true" duration-ms="11686" started-at="2020-12-10T07:08:16Z" finished-at="2020-12-10T07:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:1, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="createAccountTest" duration-ms="12613" started-at="2020-12-10T07:08:28Z" data-provider="accountsData" finished-at="2020-12-10T07:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=testaccount8@email.com, firstName=test, password=testaccount8, lastName=account, phoneNumber=9999999999}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="afterMethod" is-config="true" duration-ms="1018" started-at="2020-12-10T07:08:40Z" finished-at="2020-12-10T07:08:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountTest status=SUCCESS method=AccountCreationTests.createAccountTest(java.util.Hashtable)[pri:1, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.apparelStore.testCases.AccountCreationTests@2b6faea6]" name="stopTest" is-config="true" duration-ms="260" started-at="2020-12-10T07:08:41Z" finished-at="2020-12-10T07:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.apparelStore.testCases.AccountCreationTests -->
+      <class name="com.apparelStore.testCases.ShareProductTests">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.ShareProductTests@49c386c8]" name="beforeMethod" is-config="true" duration-ms="13337" started-at="2020-12-10T07:05:47Z" finished-at="2020-12-10T07:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="shareProductTest()[pri:0, instance:com.apparelStore.testCases.ShareProductTests@49c386c8]" name="shareProductTest" duration-ms="13508" started-at="2020-12-10T07:06:00Z" finished-at="2020-12-10T07:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareProductTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.ShareProductTests@49c386c8]" name="afterMethod" is-config="true" duration-ms="1467" started-at="2020-12-10T07:06:14Z" finished-at="2020-12-10T07:06:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shareProductTest status=SUCCESS method=ShareProductTests.shareProductTest()[pri:0, instance:com.apparelStore.testCases.ShareProductTests@49c386c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apparelStore.testCases.ShareProductTests -->
+      <class name="com.apparelStore.testCases.PlaceOrderTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.PlaceOrderTest@670002]" name="beforeMethod" is-config="true" duration-ms="13450" started-at="2020-12-10T07:04:12Z" finished-at="2020-12-10T07:04:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:com.apparelStore.testCases.PlaceOrderTest@670002]" name="placeOrder" duration-ms="50883" started-at="2020-12-10T07:04:25Z" finished-at="2020-12-10T07:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.PlaceOrderTest@670002]" name="afterMethod" is-config="true" duration-ms="1540" started-at="2020-12-10T07:05:16Z" finished-at="2020-12-10T07:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrder status=SUCCESS method=PlaceOrderTest.placeOrder()[pri:0, instance:com.apparelStore.testCases.PlaceOrderTest@670002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apparelStore.testCases.PlaceOrderTest -->
+      <class name="com.apparelStore.testCases.SearchTests">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="13824" started-at="2020-12-10T07:06:15Z" finished-at="2020-12-10T07:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="itemsSearchTest" duration-ms="2616" started-at="2020-12-10T07:06:29Z" data-provider="getData" finished-at="2020-12-10T07:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NumItemsListed=7, searchItem=dress}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsSearchTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="1391" started-at="2020-12-10T07:06:32Z" finished-at="2020-12-10T07:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="13196" started-at="2020-12-10T07:06:33Z" finished-at="2020-12-10T07:06:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="itemsSearchTest" duration-ms="2636" started-at="2020-12-10T07:06:46Z" data-provider="getData" finished-at="2020-12-10T07:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NumItemsListed=1, searchItem=blouse}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsSearchTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="1425" started-at="2020-12-10T07:06:49Z" finished-at="2020-12-10T07:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="13888" started-at="2020-12-10T07:06:50Z" finished-at="2020-12-10T07:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="itemsSearchTest" duration-ms="2294" started-at="2020-12-10T07:07:04Z" data-provider="getData" finished-at="2020-12-10T07:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NumItemsListed=1, searchItem=t shirt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsSearchTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="1454" started-at="2020-12-10T07:07:06Z" finished-at="2020-12-10T07:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="13804" started-at="2020-12-10T07:07:08Z" finished-at="2020-12-10T07:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="itemsSearchTest" duration-ms="22259" started-at="2020-12-10T07:07:22Z" data-provider="getData" finished-at="2020-12-10T07:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NumItemsListed=0, searchItem=silk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsSearchTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="903" started-at="2020-12-10T07:07:44Z" finished-at="2020-12-10T07:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="11650" started-at="2020-12-10T07:07:45Z" finished-at="2020-12-10T07:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="itemsSearchTest" duration-ms="2076" started-at="2020-12-10T07:07:56Z" data-provider="getData" finished-at="2020-12-10T07:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NumItemsListed=4, searchItem=summer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsSearchTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="903" started-at="2020-12-10T07:07:58Z" finished-at="2020-12-10T07:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtable)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="beforeMethod" is-config="true" duration-ms="11808" started-at="2020-12-10T07:07:59Z" finished-at="2020-12-10T07:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="manufacturerTest()[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="manufacturerTest" duration-ms="3882" started-at="2020-12-10T07:08:11Z" finished-at="2020-12-10T07:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manufacturerTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192]" name="afterMethod" is-config="true" duration-ms="930" started-at="2020-12-10T07:08:15Z" finished-at="2020-12-10T07:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manufacturerTest status=SUCCESS method=SearchTests.manufacturerTest()[pri:0, instance:com.apparelStore.testCases.SearchTests@56528192] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apparelStore.testCases.SearchTests -->
+      <class name="com.apparelStore.testCases.LoginLogOffTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="beforeMethod" is-config="true" duration-ms="14351" started-at="2020-12-10T07:03:06Z" finished-at="2020-12-10T07:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidLoginTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="invalidLoginTest" duration-ms="4758" started-at="2020-12-10T07:03:20Z" finished-at="2020-12-10T07:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="afterMethod" is-config="true" duration-ms="1582" started-at="2020-12-10T07:03:25Z" finished-at="2020-12-10T07:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginLogOffTest.invalidLoginTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="beforeMethod" is-config="true" duration-ms="13957" started-at="2020-12-10T07:03:26Z" finished-at="2020-12-10T07:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logOffTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="logOffTest" duration-ms="9404" started-at="2020-12-10T07:03:40Z" finished-at="2020-12-10T07:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOffTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="afterMethod" is-config="true" duration-ms="1312" started-at="2020-12-10T07:03:50Z" finished-at="2020-12-10T07:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOffTest status=SUCCESS method=LoginLogOffTest.logOffTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="beforeMethod" is-config="true" duration-ms="13761" started-at="2020-12-10T07:03:51Z" finished-at="2020-12-10T07:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="validLoginTest" duration-ms="5574" started-at="2020-12-10T07:04:05Z" finished-at="2020-12-10T07:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062]" name="afterMethod" is-config="true" duration-ms="1525" started-at="2020-12-10T07:04:10Z" finished-at="2020-12-10T07:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginLogOffTest.validLoginTest()[pri:0, instance:com.apparelStore.testCases.LoginLogOffTest@778d1062] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apparelStore.testCases.LoginLogOffTest -->
+      <class name="com.apparelStore.testCases.ReviewTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.apparelStore.testCases.ReviewTest@1f0f1111]" name="beforeMethod" is-config="true" duration-ms="13521" started-at="2020-12-10T07:05:18Z" finished-at="2020-12-10T07:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="writeReviewTest()[pri:0, instance:com.apparelStore.testCases.ReviewTest@1f0f1111]" name="writeReviewTest" duration-ms="13464" started-at="2020-12-10T07:05:31Z" finished-at="2020-12-10T07:05:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.apparelStore.testCases.ReviewTest.writeReviewTest(ReviewTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReviewTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.apparelStore.testCases.ReviewTest@1f0f1111]" name="afterMethod" is-config="true" duration-ms="1856" started-at="2020-12-10T07:05:45Z" finished-at="2020-12-10T07:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=writeReviewTest status=FAILURE method=ReviewTest.writeReviewTest()[pri:0, instance:com.apparelStore.testCases.ReviewTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.apparelStore.testCases.ReviewTest -->
+    </test> <!-- Apparel Store Test -->
+  </suite> <!-- ApparelStoreTestSuite -->
+</testng-results>

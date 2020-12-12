@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ApparelStoreTestSuite]">
+  <test thread-count="5" name="Apparel Store Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.apparelStore.testCases.ReviewTest">
+        <methods>
+          <include name="writeReviewTest"/>
+          <include name="startReport"/>
+          <include name="stopTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.apparelStore.testCases.ReviewTest -->
+    </classes>
+  </test> <!-- Apparel Store Test(failed) -->
+</suite> <!-- Failed suite [ApparelStoreTestSuite] -->

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ApparelStoreTestSuite">
+              <span class="suite-name border-failed">ApparelStoreTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ApparelStoreTestSuite">
+                    <span>D:\Chetan\Eclipse workspace\apparelStore\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ApparelStoreTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ApparelStoreTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ApparelStoreTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ApparelStoreTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ApparelStoreTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ApparelStoreTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ApparelStoreTestSuite" class="hide-methods failed suite-ApparelStoreTestSuite"> (hide)</a> <!-- hide-methods failed suite-ApparelStoreTestSuite -->
+                      <a href="#" panel-name="suite-ApparelStoreTestSuite" class="show-methods failed suite-ApparelStoreTestSuite"> (show)</a> <!-- show-methods failed suite-ApparelStoreTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ApparelStoreTestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.ReviewTest" hash-for-method="writeReviewTest">writeReviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ApparelStoreTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ApparelStoreTestSuite" class="hide-methods passed suite-ApparelStoreTestSuite"> (hide)</a> <!-- hide-methods passed suite-ApparelStoreTestSuite -->
+                      <a href="#" panel-name="suite-ApparelStoreTestSuite" class="show-methods passed suite-ApparelStoreTestSuite"> (show)</a> <!-- show-methods passed suite-ApparelStoreTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ApparelStoreTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.AccountCreationTests" hash-for-method="createAccountCaseTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)">createAccountCaseTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.AccountCreationTests" hash-for-method="createAccountTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)">createAccountTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.LoginLogOffTest" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="itemsSearchTest({NumItemsListed=7, searchItem=dress})">itemsSearchTest({NumItemsListed=7, searchItem=dress})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="itemsSearchTest({NumItemsListed=4, searchItem=summer})">itemsSearchTest({NumItemsListed=4, searchItem=summer})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="itemsSearchTest({NumItemsListed=1, searchItem=t shirt})">itemsSearchTest({NumItemsListed=1, searchItem=t shirt})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="itemsSearchTest({NumItemsListed=0, searchItem=silk})">itemsSearchTest({NumItemsListed=0, searchItem=silk})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="itemsSearchTest({NumItemsListed=1, searchItem=blouse})">itemsSearchTest({NumItemsListed=1, searchItem=blouse})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.LoginLogOffTest" hash-for-method="logOffTest">logOffTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.SearchTests" hash-for-method="manufacturerTest">manufacturerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.PlaceOrderTest" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.ShareProductTests" hash-for-method="shareProductTest">shareProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ApparelStoreTestSuite" title="com.apparelStore.testCases.LoginLogOffTest" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ApparelStoreTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ApparelStoreTestSuite" class="panel ApparelStoreTestSuite">
+          <div class="suite-ApparelStoreTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.apparelStore.testCases.ReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="writeReviewTest">
+                  </a> <!-- writeReviewTest -->
+                  <span class="method-name">writeReviewTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.apparelStore.testCases.ReviewTest.writeReviewTest(ReviewTest.java:34)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-failed -->
+          <div class="suite-ApparelStoreTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apparelStore.testCases.ShareProductTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductTest">
+                  </a> <!-- shareProductTest -->
+                  <span class="method-name">shareProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-passed -->
+          <div class="suite-ApparelStoreTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apparelStore.testCases.AccountCreationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountCaseTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)">
+                  </a> <!-- createAccountCaseTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...) -->
+                  <span class="method-name">createAccountCaseTest</span>
+                  <span class="parameters">({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=testaccount8@email.com, firstName=test, password=testaccount8, lastName=account, phoneNumber=9999999999})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)">
+                  </a> <!-- createAccountTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=testaccount8@email.com, firstName=test, password=testaccount8, lastName=account, phoneNumber=9999999999})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-passed -->
+          <div class="suite-ApparelStoreTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apparelStore.testCases.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemsSearchTest({NumItemsListed=7, searchItem=dress})">
+                  </a> <!-- itemsSearchTest({NumItemsListed=7, searchItem=dress}) -->
+                  <span class="method-name">itemsSearchTest</span>
+                  <span class="parameters">({NumItemsListed=7, searchItem=dress})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemsSearchTest({NumItemsListed=4, searchItem=summer})">
+                  </a> <!-- itemsSearchTest({NumItemsListed=4, searchItem=summer}) -->
+                  <span class="method-name">itemsSearchTest</span>
+                  <span class="parameters">({NumItemsListed=4, searchItem=summer})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemsSearchTest({NumItemsListed=1, searchItem=t shirt})">
+                  </a> <!-- itemsSearchTest({NumItemsListed=1, searchItem=t shirt}) -->
+                  <span class="method-name">itemsSearchTest</span>
+                  <span class="parameters">({NumItemsListed=1, searchItem=t shirt})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemsSearchTest({NumItemsListed=0, searchItem=silk})">
+                  </a> <!-- itemsSearchTest({NumItemsListed=0, searchItem=silk}) -->
+                  <span class="method-name">itemsSearchTest</span>
+                  <span class="parameters">({NumItemsListed=0, searchItem=silk})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemsSearchTest({NumItemsListed=1, searchItem=blouse})">
+                  </a> <!-- itemsSearchTest({NumItemsListed=1, searchItem=blouse}) -->
+                  <span class="method-name">itemsSearchTest</span>
+                  <span class="parameters">({NumItemsListed=1, searchItem=blouse})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="manufacturerTest">
+                  </a> <!-- manufacturerTest -->
+                  <span class="method-name">manufacturerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-passed -->
+          <div class="suite-ApparelStoreTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apparelStore.testCases.LoginLogOffTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOffTest">
+                  </a> <!-- logOffTest -->
+                  <span class="method-name">logOffTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-passed -->
+          <div class="suite-ApparelStoreTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apparelStore.testCases.PlaceOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrder">
+                  </a> <!-- placeOrder -->
+                  <span class="method-name">placeOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ApparelStoreTestSuite-class-passed -->
+        </div> <!-- panel ApparelStoreTestSuite -->
+        <div panel-name="test-xml-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Chetan\Eclipse workspace\apparelStore\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ApparelStoreTestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Apparel Store Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.AccountCreationTests&quot;/&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.LoginLogOffTest&quot;/&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.PlaceOrderTest&quot;/&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.ReviewTest&quot;/&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.ShareProductTests&quot;/&gt;
+      &lt;class name=&quot;com.apparelStore.testCases.SearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Apparel Store Test --&gt;
+&lt;/suite&gt; &lt;!-- ApparelStoreTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ApparelStoreTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Apparel Store Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ApparelStoreTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ApparelStoreTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ApparelStoreTestSuite');
+function tableData_ApparelStoreTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'placeOrder')
+data.setCell(0, 2, 'com.apparelStore.testCases.PlaceOrderTest')
+data.setCell(0, 3, 50883);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'itemsSearchTest')
+data.setCell(1, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(1, 3, 22259);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shareProductTest')
+data.setCell(2, 2, 'com.apparelStore.testCases.ShareProductTests')
+data.setCell(2, 3, 13508);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'writeReviewTest')
+data.setCell(3, 2, 'com.apparelStore.testCases.ReviewTest')
+data.setCell(3, 3, 13464);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAccountTest')
+data.setCell(4, 2, 'com.apparelStore.testCases.AccountCreationTests')
+data.setCell(4, 3, 12613);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createAccountCaseTest')
+data.setCell(5, 2, 'com.apparelStore.testCases.AccountCreationTests')
+data.setCell(5, 3, 12012);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logOffTest')
+data.setCell(6, 2, 'com.apparelStore.testCases.LoginLogOffTest')
+data.setCell(6, 3, 9404);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validLoginTest')
+data.setCell(7, 2, 'com.apparelStore.testCases.LoginLogOffTest')
+data.setCell(7, 3, 5574);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidLoginTest')
+data.setCell(8, 2, 'com.apparelStore.testCases.LoginLogOffTest')
+data.setCell(8, 3, 4758);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'manufacturerTest')
+data.setCell(9, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(9, 3, 3882);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'itemsSearchTest')
+data.setCell(10, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(10, 3, 2636);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'itemsSearchTest')
+data.setCell(11, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(11, 3, 2616);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'itemsSearchTest')
+data.setCell(12, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(12, 3, 2294);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'itemsSearchTest')
+data.setCell(13, 2, 'com.apparelStore.testCases.SearchTests')
+data.setCell(13, 3, 2076);
+window.suiteTableData['ApparelStoreTestSuite']= { tableData: data, tableDiv: 'times-div-ApparelStoreTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-ApparelStoreTestSuite">
+              </div> <!-- times-div-ApparelStoreTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ApparelStoreTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.apparelStore.testCases.ReviewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">stopTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.apparelStore.testCases.ShareProductTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">stopTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.apparelStore.testCases.LoginLogOffTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">stopTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.apparelStore.testCases.SearchTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">stopTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.apparelStore.testCases.PlaceOrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">stopTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ApparelStoreTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.AccountCreationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountCaseTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)</span>
+                <span class="method-start">17335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createAccountCaseTest status=SUCCESS method=AccountCreationTests.createAccountCaseT...)</span>
+                <span class="method-start">29347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.LoginLogOffTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">30816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">45167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=invalidLoginTest status=SUCCESS method=LoginLogOffTest.invalidLoginTest()[pri:0, in...)</span>
+                <span class="method-start">49925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">51507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logOffTest</span>
+                <span class="method-start">65464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=logOffTest status=SUCCESS method=LoginLogOffTest.logOffTest()[pri:0, instance:com.a...)</span>
+                <span class="method-start">74868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">76180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">89941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validLoginTest status=SUCCESS method=LoginLogOffTest.validLoginTest()[pri:0, instan...)</span>
+                <span class="method-start">95523 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.PlaceOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">97048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrder</span>
+                <span class="method-start">110498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=placeOrder status=SUCCESS method=PlaceOrderTest.placeOrder()[pri:0, instance:com.ap...)</span>
+                <span class="method-start">161381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.ReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">162921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">writeReviewTest</span>
+                <span class="method-start">176442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=writeReviewTest status=FAILURE method=ReviewTest.writeReviewTest()[pri:0, instance:...)</span>
+                <span class="method-start">189914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.ShareProductTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">191770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shareProductTest</span>
+                <span class="method-start">205107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=shareProductTest status=SUCCESS method=ShareProductTests.shareProductTest()[pri:0, ...)</span>
+                <span class="method-start">218615 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.SearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">220138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemsSearchTest({NumItemsListed=7, searchItem=dress})</span>
+                <span class="method-start">233962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtab...)</span>
+                <span class="method-start">236586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">237977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemsSearchTest({NumItemsListed=1, searchItem=blouse})</span>
+                <span class="method-start">251173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtab...)</span>
+                <span class="method-start">253809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">255234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemsSearchTest({NumItemsListed=1, searchItem=t shirt})</span>
+                <span class="method-start">269122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtab...)</span>
+                <span class="method-start">271416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">272870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemsSearchTest({NumItemsListed=0, searchItem=silk})</span>
+                <span class="method-start">286674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtab...)</span>
+                <span class="method-start">308934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">309837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemsSearchTest({NumItemsListed=4, searchItem=summer})</span>
+                <span class="method-start">321487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=itemsSearchTest status=SUCCESS method=SearchTests.itemsSearchTest(java.util.Hashtab...)</span>
+                <span class="method-start">323563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">324466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">manufacturerTest</span>
+                <span class="method-start">336274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=manufacturerTest status=SUCCESS method=SearchTests.manufacturerTest()[pri:0, instan...)</span>
+                <span class="method-start">340157 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apparelStore.testCases.AccountCreationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">341119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountTest({postalCode=12345, state=Ohio, country=United States, city=Bangalore, addressLine1=line1, email=test...)</span>
+                <span class="method-start">352805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createAccountTest status=SUCCESS method=AccountCreationTests.createAccountTest(java...)</span>
+                <span class="method-start">365420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">stopTest</span>
+                <span class="method-start">366438 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
